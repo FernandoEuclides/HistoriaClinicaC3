@@ -40,7 +40,7 @@ PRODUCT BACKLOG, retroalimentado, aprobado por el Cliente del Proyecto para soci
                                          Victor Manuel Patiño Cañas,
                                          Walter Alvarez,
                                          Jésus Salvador Areiza Fernández, 
-                                         Walter Álvarez,
+                                         Jorge Rodriguez Gomez,
                                          Fernando Euclides sarmiento Benitez.
                 Acometen con: entusiasmo, confianza, compromiso y colaboracion las tareas recibidas para el logro efectivo, eficiente y oportuno del sprint objetivo 
 
