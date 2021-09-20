@@ -1,0 +1,50 @@
+PROYECTO PARA DAR CUMPLIMIENTO AL CICLO 3 DE FORMACION COMO PROGRAMDOR MINTIC-UNAB 2021
+
+TRIPULACION: G47-GRP02 MINTIC-UNAB 2021
+CAPITAN: Ingeniero Carlos Mejia
+
+NOMBRE DEL PROYECTO: Desarrollo de un sistema de Gestion de Historias Clinicas - Consulta Externa
+COMPAÑIA-CLIENTE: CENTRO MEDICOS UNIDOS DEL NORTE
+ 
+ESTRUCTURACION DEL EQUIPO SCRUM
+
+CLIENTES DEL PROYECTO
+	Coordinador del Centro Médico
+        Médico del Turno Diurno
+        Médico del Turno Nocturno
+                      
+        Interactuan con
+
+PRODUCT OWNER: Ingeniero Senior: Jorge Rodriguez Gomez
+               que: Obtiene, Registra, Retroalimenta, Detalla requerimientos del cliente 
+               para producir el: 
+
+PRODUCT BACKLOG, retroalimentado, aprobado por el Cliente del Proyecto para socializarlo con:
+
+	SCRUM-MASTER
+               Ingeniero Senior: Jésus Salvador Areiza Fernández
+               Lider facilitador de la gestion del equipo de SCRUM-DEVELOP que al ser conocedor de sus fortalezas, 
+               establecerá: Marcos de tiempo       
+                            Entrega de especificaciones de desarrollo y aclaraciones
+                            Acordará asignacion de tareas	
+                            Tiempos de entrega
+                            Reuniones periodicas concretas de seguimiento con el SCRUM-DEVELOP
+                            Retroalimentacion y reasignación de recursos para cumplir con el objetivo del Sprint
+                            Validacion de cumplimiento del PRODUCT BACKLOG
+                            Retroalimentacion con el PRODUCT OWNER            
+                
+	SCRUM-DEVELOP
+	        Desarrolladores del Producto(Software)
+                Analistas, Diseñadores, Programadores, testeadores.
+                Ingeniera/o de Software: Yasmín Torres Mora, 
+                                         Victor Manuel Patiño Cañas,
+                                         Walter Alvarez,
+                                         Jésus Salvador Areiza Fernández, 
+                                         Walter Álvarez,
+                                         Fernando Euclides sarmiento Benitez.
+                Acometen con: entusiasmo, confianza, compromiso y colaboracion las tareas recibidas para el logro efectivo, eficiente y oportuno del sprint objetivo 
+
+
+
+
+
