@@ -10,7 +10,7 @@ ESTRUCTURACION DEL EQUIPO SCRUM
 
 CLIENTES DEL PROYECTO
 	Coordinador del Centro Médico
-        Médico del Turno Diurno
+        Médico de Turno Diurno
         Médico del Turno Nocturno
                       
         Interactuan con
