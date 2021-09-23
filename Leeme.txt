@@ -1,0 +1,39 @@
+Despues de Instalar GIT
+--abrir git, boton derecho en el escritorio, git bash here
+
+se gestiona asi:
+--- git help
+1 Crear (carpeta) directorio en el escritorio
+
+2 Dentro de la carpeta
+  asignar un usuario
+  $ git config --global user.name "fernando"
+  $ git config --global user.email "fernando.sarmiento@o365.unab.edu.co"
+  $ git config --global -e
+  $ ls
+  $ ls -all
+
+2 Convertir Directorio en
+     Repositorio, al Crear Repositorio, se crea carpeta oculta.
+     $ git init
+
+Nota: se puede crear archivo con touch namefileyextension
+
+3 Adicionar archivos y Ver estados
+     $ git add  codigo/estadistica.py
+     $ git status
+     $ git add  codigo/seguridad.py
+     $ git status
+     //Para adicionar toda la carpeta
+       $ git add .
+       $ git status
+4 Confirmar archivos y ver estado    
+     $ git commit -m "comentario para documentar la novedad, ej: ver 1 xxxxx"
+
+5*****
+ $ git push
+ $ git pull
+ $ git clone
+$ git checkout -- index.html   revierte cambios
+$ git diff index.html       muestra la diferencia del actual grabado con el anterior salvado en el repositorio
+
