@@ -1,7 +1,7 @@
 PROYECTO PARA DAR CUMPLIMIENTO AL CICLO 3 DE FORMACION COMO PROGRAMDOR MINTIC-UNAB 2021
 
 TRIPULACION: G47-GRP02 MINTIC-UNAB 2021
-CAPITAN: Ingeniero Carlos Mejia
+Ingeniero Carlos Mejia
 
 NOMBRE DEL PROYECTO: Desarrollo de un sistema de Gestion de Historias Clinicas - Consulta Externa
 COMPAÑIA-CLIENTE: CENTRO MEDICOS UNIDOS DEL NORTE
@@ -10,7 +10,7 @@ ESTRUCTURACION DEL EQUIPO SCRUM
 
 CLIENTES DEL PROYECTO
 	Coordinador del Centro Médico
-        Médico del Turno Diurno
+        Médico de Turno Diurno
         Médico del Turno Nocturno
                       
         Interactuan con
