@@ -1,0 +1,106 @@
+PROYECTO PARA DAR CUMPLIMIENTO AL CICLO 3 DE FORMACION COMO PROGRAMDOR MINTIC-UNAB 2021
+
+TRIPULACION: G47-GRP02 MINTIC-UNAB 2021
+CAPITAN: Ingeniero Carlos Mejia
+
+NOMBRE DEL PROYECTO: Desarrollo de un sistema de Gestion de Historias Clinicas - Consulta Externa
+COMPAÑIA-CLIENTE: CENTRO MEDICOS UNIDOS DEL NORTE
+ 
+ESTRUCTURACION DEL EQUIPO SCRUM
+
+CLIENTES DEL PROYECTO
+	Coordinador del Centro Médico
+        Médico del Turno Diurno
+        Médico del Turno Nocturno
+                      
+        Interactuan con
+
+PRODUCT OWNER: Ingeniero Senior: Jorge Rodriguez Gomez
+               que: Obtiene, Registra, Retroalimenta, Detalla requerimientos del cliente 
+               para producir el: 
+
+PRODUCT BACKLOG, retroalimentado, aprobado por el Cliente del Proyecto para socializarlo con:
+
+	SCRUM-MASTER
+               Ingeniero Senior: Jésus Salvador Areiza Fernández
+               Lider facilitador de la gestion del equipo de SCRUM-DEVELOP que al ser conocedor de sus fortalezas, 
+               establecerá: Marcos de tiempo       
+                            Entrega de especificaciones de desarrollo y aclaraciones
+                            Acordará asignacion de tareas	
+                            Tiempos de entrega
+                            Reuniones periodicas concretas de seguimiento con el SCRUM-DEVELOP
+                            Retroalimentacion y reasignación de recursos para cumplir con el objetivo del Sprint
+                            Validacion de cumplimiento del PRODUCT BACKLOG
+                            Retroalimentacion con el PRODUCT OWNER            
+                
+	SCRUM-DEVELOP
+	        Desarrolladores del Producto(Software)
+                Analistas, Diseñadores, Programadores, testeadores.
+                Ingeniera/o de Software: Yasmín Torres Mora, 
+                                         Victor Manuel Patiño Cañas,
+                                         Walter Alvarez,
+                                         Jésus Salvador Areiza Fernández, 
+                                         Jorge Rodriguez Gomez,
+                                         Fernando Euclides sarmiento Benitez.
+                Acometen con: entusiasmo, confianza, compromiso y colaboracion las tareas recibidas para el logro efectivo, eficiente y oportuno del sprint objetivo 
+
+
+//*************************************************************************************
+CONTENIDO DE DOCUMENTO BACKLOG
+//*************************************************************************************
+
+La reunion con el Cliente Medico, arrojo las siguientes Historias de usuario:
+
+HISTORIA	COMO	QUIERO							PARA
+   1		Medico  Registrar los datos de identificacion del paciente	poder identificarlo y saber a quien contactar en caso requerido y verificar el pago de servicios
+			tales como: Cedula,sexo,nombre,fechanacimiento, forma 
+                        de pago, episodio para saber cuantas consultas tiene,
+                        ocupacion, estado civil,froma de pago, direcciones y 
+                        telefonos de él y acudientes.
+
+   2		Medico	Poder Consultar la Historia Clinica con la Cedula	La consulta al momento de la atencion permite ganar tiempo con datos que no requieren ser 
+                                                                                nuevamente digitados y centrarse en la verificacion y las novedades en la consulta.  
+
+   3		Medico	Debo registrar la causa de consulta que hace al        conocer los problemas de salud que trae el paciente 
+                        buscar el servicio medico                               
+
+   4            Medico  Registro lo que denominamos revision por sistemas  	Recabar informacion general del estado del paciente
+                        tales como: cabeza, garganta, gastroIntestinal, Genito
+                        urinario, cuello
+
+   5		Medico	Registrar la toma de signos vitales como: temperatua,	tener informacion clave del estado del paciente al momento de consulta
+	                presion arterial, peso, talla
+
+   6            Medico  Anotar el Examen Fisico, como: Estado de conciencia,    Anotar observaciones generales del paciente
+                        respiratorio, general
+
+   7		Medico  Escribir los hallazgos de examen fisico sin prellenado	Completar la revision por sistemas
+                        como:Cabeza, Cara, ORL, Cuello, Torax y Mamas, Abdomen,
+                        Genitourinario, Extremidad, Neurologico, Otros hallazgos,
+                        Med. Registra,Especialidad
+		
+   8		Medico	Escribir Analisis y Consulta				registrar mis analisis medicos
+
+   9		Medico	Registrar el diagnostico que asigno a las dolencias     registro mis diagnosticos
+   			del paciente, se debe escribir el codigo del 
+                        diagnostico y el trae la descripcion, tambien se debe
+			identificar el medico que realiza el diagnostico 
+			con fecha y hora
+
+  10		Medico	Registrar Ordenes Clinicas, es decir: el examen		registrar las ayudas diagnosticas requeridas al paciente
+                        clinico se debe tomar de una lista de examenes, 
+                        identificar el medico,fecha y hora
+ 
+  11 		Medico  Registar la indicacion que el paciente debe seguir	Tener constancia de las recomendaciones al paciente
+                        y la clase, debe registrar el medico, fecha y hora
+
+  12            Medico  Relacionar el Medicamento formulado, dosis,via adm,     Anotar la formula del paciente
+                        frecuencia, debe identificar medico, fecha y hora
+
+  13            Medico  Escribir la evolucion medica clasificada en:            Dejar constancia de mis observaciones de la evolucion del paciente
+                        Subjetivo, objetivo, Analisis, debe identificar 
+                        medico, fecha y hora
+
+Nota: sugiero que la identificacion del medico, fecha y hora solo se haga en la hoja de DIAGNOSTICOS y quitarlo de las demas
+
+
