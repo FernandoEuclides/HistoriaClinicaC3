@@ -99,8 +99,4 @@ HISTORIA	COMO	QUIERO							PARA
 
   13            Medico  Escribir la evolucion medica clasificada en:            Dejar constancia de mis observaciones de la evolucion del paciente
                         Subjetivo, objetivo, Analisis, debe identificar 
-                        medico, fecha y hora
-
-Nota: sugiero que la identificacion del medico, fecha y hora solo se haga en la hoja de DIAGNOSTICOS y quitarlo de las demas
-
-
+                        medico, fecha y hora.
