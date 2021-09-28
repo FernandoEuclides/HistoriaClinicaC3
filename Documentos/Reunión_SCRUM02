@@ -1,0 +1,27 @@
+SCRUM 02
+Fecha: 26 de septiembre de 2021
+Hora inicio: 4:00 pm
+Hora final: 7:30 pm
+
+Se inicia la reunión con la asistencia de los integrantes del equipo:
+Fernando Euclides Sarmiento
+Yasmín Torres
+Walter Álvarez
+Víctor Manuel Patiño
+
+Se aborda la temática sobre los detalles de las tareas a ejecutar para el cumplimiento de los logros en el proceso de formación “Desarrollo de Software” Ciclo 3 (Convenio MinTic-UNAB).
+Unánimemente, los reunidos deciden asignar al tripulante Víctor Manuel Patiño Cañas para que funja el Rol de “SCRUM MASTER”, asignación respetuosamente aceptada.
+El tripulante Fernando Euclides expone su bagaje de conocimiento, logrando la nivelación y uniformidad de criterios sobre cada uno de los detalles hasta aquí trabajados y plasmados en el repositorio creado por él y socializado ante el grupo.
+Análisis del fichero BackLog: Fernando Euclides ha propuesto en la línea 104 la siguiente NOTA: “Sugiero que la identificación del médico, fecha y hora, sólo se haga en la hoja de DIAGNÓSTICOS y quitarlos de las demás”. La propuesta se evaluó y fue aprobada por unanimidad, razón por la cual se modificará el fichero BackLog eliminando la línea 104 porque ya no será necesaria y el resultado se reflejará en la construcción de cada maqueta (página) en HTML.
+Acto seguido, se evaluó las tareas cumplidas para el Sprint_1:
+1.	Metodología Scrum, efectiva.
+2.	Sprint Backlog, efectivo.
+3.	Sprint Burndown, efectivo.
+4.	Metas cumplidas.
+
+Se aprueba por unanimidad las siguientes acciones:
+1.	Plasmar en archivo de texto, evidencia de la reunión.
+2.	Agregar el nuevo archivo de texto al repositorio.
+3.	Agregar el archivo de Excel que contiene el Sprint Backlog y el Sprint Burndown al repositorio como Sprint_1.
+4.	Efectuar las actualizaciones y commit pertinentes al repositorio.
+5.	Subir a la plataforma MinTic_UNAB el Sprint_1, para revisión del Capitán, el profesor Carlos Mejía.
