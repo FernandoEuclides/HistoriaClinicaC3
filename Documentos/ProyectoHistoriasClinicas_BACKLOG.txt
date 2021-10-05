@@ -9,11 +9,9 @@ COMPAÑIA-CLIENTE: CENTRO MEDICOS UNIDOS DEL NORTE
 ESTRUCTURACION DEL EQUIPO SCRUM
 
 CLIENTES DEL PROYECTO
-	Coordinador del Centro Médico
-        Médico de Turno Diurno
-        Médico de Turno Nocturno
+	Médico de Turno
                       
-        Interactuan con
+        Interactua con
 
 PRODUCT OWNER: Ingeniero Senior: Jorge Rodriguez Gomez
                que: Obtiene, Registra, Retroalimenta, Detalla requerimientos del cliente 
@@ -70,33 +68,22 @@ HISTORIA	COMO	QUIERO							PARA
 
    5		Medico	Registrar la toma de signos vitales como: temperatua,	tener informacion clave del estado del paciente al momento de consulta
 	                presion arterial, peso, talla
-
-   6            Medico  Anotar el Examen Fisico, como: Estado de conciencia,    Anotar observaciones generales del paciente
-                        respiratorio, general
-
-   7		Medico  Escribir los hallazgos de examen fisico sin prellenado	Completar la revision por sistemas
-                        como:Cabeza, Cara, ORL, Cuello, Torax y Mamas, Abdomen,
-                        Genitourinario, Extremidad, Neurologico, Otros hallazgos,
-                        Med. Registra,Especialidad
 		
-   8		Medico	Escribir Analisis y Consulta				registrar mis analisis medicos
+   6		Medico	Escribir Analisis y Consulta				registrar mis analisis medicos
 
-   9		Medico	Registrar el diagnostico que asigno a las dolencias     registro mis diagnosticos
+   7		Medico	Registrar el diagnostico que asigno a las dolencias     registro mis diagnosticos
    			del paciente, se debe escribir el codigo del 
                         diagnostico y el trae la descripcion, tambien se debe
 			identificar el medico que realiza el diagnostico 
 			con fecha y hora
 
-  10		Medico	Registrar Ordenes Clinicas, es decir: el examen		registrar las ayudas diagnosticas requeridas al paciente
+  8		Medico	Registrar Ordenes Clinicas, es decir: el examen		registrar las ayudas diagnosticas requeridas al paciente
                         clinico se debe tomar de una lista de examenes, 
                         identificar el medico,fecha y hora
  
-  11 		Medico  Registar la indicacion que el paciente debe seguir	Tener constancia de las recomendaciones al paciente
-                        y la clase, debe registrar el medico, fecha y hora
-
-  12            Medico  Relacionar el Medicamento formulado, dosis,via adm,     Anotar la formula del paciente
+  9            Medico  Relacionar el Medicamento formulado, dosis,via adm,     Anotar la formula del paciente
                         frecuencia, debe identificar medico, fecha y hora
 
-  13            Medico  Escribir la evolucion medica clasificada en:            Dejar constancia de mis observaciones de la evolucion del paciente
+  10            Medico  Escribir la evolucion medica clasificada en:            Dejar constancia de mis observaciones de la evolucion del paciente
                         Subjetivo, objetivo, Analisis, debe identificar 
                         medico, fecha y hora.
