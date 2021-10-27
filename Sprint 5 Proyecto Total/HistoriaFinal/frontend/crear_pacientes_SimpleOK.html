@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Pacientes</title>
+    <link href="./estilos/estilo_menu.css" rel="stylesheet">
+    <link href="./estilos/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/estilos_login.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./Imagenes/Encabezado.jpg" width="1340" />
+    </header>
+
+    <h1>Plataforma para crear pacientes:</h1>
+
+    <p>A continuación podrás crear pacientes para luego anexar las historias
+        clínicas, exámenes de laboratorio y fórmulas médicas. </p>
+    <br>
+
+
+
+
+    <h3>Sólo debes diligenciar el siguiente formulario.</h3>
+    <section>
+        <form class="marg-form">
+            <br>
+            <label for="numDocumento">Número de Documento..:</label>
+            <input type="text" class="caja_texto" name="prioridad" id="prioridad"
+                placeholder="Escribe acá tu Número de Documento" required><br><br>
+            <label for="nombre">Nombre...........................:</label>
+            <input type="text" class="caja_texto" name="nombre" id="nombre" placeholder="Nombre"><br><br>
+            <label for="email">E-mail.............................:</label>
+            <input type="text" class="caja_texto" name="email" id="email" placeholder="Escribe acá tu e-mail"
+                required><br><br><br><br>
+            <input type="submit" class="button-nav" value="Guardar" id="guardar"> <br><br>
+
+
+        </form>
+    </section>
+    <a href="gestionar_pacientes.html"> Regresar al menú</a><br>
+
+    <script src="/script/jquery-3.6.0.min.js"></script>
+    <script src="/script/javascript.js"></script>
+
+</body>
+
+</html>

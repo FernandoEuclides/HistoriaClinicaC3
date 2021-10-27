@@ -1,0 +1,57 @@
+body {
+  background: rgb(242, 233, 247);
+}
+
+.titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #590591;
+  text-align: center;
+}
+
+.parrafo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  color: #590591;
+}
+h2 {
+  color: #590591;
+}
+h3 {
+  color: #590591;
+}
+
+.link_suelto {
+  background-color: 
+   /* rgba(3, 3, 70, 0.952); */ rgba(243, 226, 73, 0.952);
+
+  border-radius: 10px 0 10px 0;
+  /* color: #fff;*/
+  color: rgb(27, 1, 1);
+  margin: 1px;
+  padding: 10px;
+  text-decoration: none;
+}
+.link_suelto:hover {
+  background-color: rgba(4, 4, 209, 0.904);
+}
+
+.link_suelto2 {
+  background-color: rgba(3, 3, 70, 0.952);
+
+  border-radius: 10px 0 10px 0;
+  color: #fff;
+
+  margin: 1px;
+  padding: 10px;
+  text-decoration: none;
+}

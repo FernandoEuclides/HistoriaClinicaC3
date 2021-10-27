@@ -1,0 +1,60 @@
+.button-nav{
+   line-height: 30px; 
+   background-color: #f77f00;
+   font-weight: bold;
+   font-size: medium;
+   border: none;
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 10px;
+   inline-size: auto;
+}
+.button-foco{
+    background-color: #d62828;
+}
+a{
+    color: #003049;
+    text-decoration: none;
+}
+h1{
+    border-bottom: 3px solid #fcbf49;
+    color: #003049;
+}
+.marg-form{
+    padding: 40px;
+    overflow: hidden;
+    margin: auto;
+    width: 30%;
+    border: solid #003049;
+    margin-top: 20px;
+    
+}
+.caja_texto{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 50%;
+    margin: auto;
+    padding: 16px;
+}
+table, th, td{
+    border: 1px solid white;
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    background-color: #d62828;
+    color: #003049;
+}
+/*Renglones pares*/
+tr:nth-child(even){
+    background-color: #fcbf49;
+}
+/*Renglones impares*/
+tr:nth-child(odd){
+    background-color: #eae2b7;
+}

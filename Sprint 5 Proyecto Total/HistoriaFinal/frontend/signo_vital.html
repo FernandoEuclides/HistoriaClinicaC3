@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos Vitales</title>
+    <link href="./estilos/estilo_menu.css" rel="stylesheet">
+    <link href="./estilos/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/estilos_login.css">
+</head>
+<body>
+
+    <header>
+        <img src="./Imagenes/Encabezado.jpg" width="1340"/>
+    </header>
+
+    <h1>Signos Vitales:</h1>
+
+    <p>A continuación podrá registrar los signos vitales del paciente. </p>
+    <br> 
+    <h3>Sólo debes diligenciar el siguiente formulario.</h3>
+
+    <label for="estado_ingreso">Estado de Ingreso...............:</label>
+    <select id="estado_ingreso" name="estado_ingreso">
+        <option value="null"> Seleccionar </option>
+        <option value="consciente"> Consciente </option>
+        <option value="inconsciente"> Inconsciente </option>
+        
+    </select><br><br>
+
+    <label for="temperatura">Temperatura.......................:</label>
+    <input type="text" id="temperatura" name="temperatura" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="presionArterial">Presion Arterial..................:</label>
+    <input type="text" id="presionArterial" name="presionArterial" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="frecuencia_cardiaca">Frecuencia Cardiaca...........:</label>
+    <input type="text" id="frecuencia_cardiaca" name="frecuencia_cardiaca" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="frecuencia_respiratoria">Frecuencia Respiratoria......:</label>
+    <input type="text" id="frecuencia_respiratoria" name="frecuencia_respiratoria" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="Peso">Peso....................................:</label>
+    <input type="text" id="Peso" name="Peso" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="Talla">Talla....................................:</label>
+    <input type="text" id="Talla" name="Talla" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="IMC">IMC....................................:</label>
+    <input type="text" id="IMC" name="IMC" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="SatO2">Saturación con O2..............:</label>
+    <input type="text" id="SatO2" name="SatO2" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="SatsinO2">Saturación Sin O2..............:</label>
+    <input type="text" id="SatsinO2" name="SatsinO2" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="perCef">Perímetro Cefáleo...............:</label>
+    <input type="text" id="perCef" name="perCef" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="perAbd">Perímetro Abdominal.........:</label>
+    <input type="text" id="perAbd" name="perAbd" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="SC">SC (m2)..............................:</label>
+    <input type="text" id="SC" name="SC" 
+    placeholder="Registre el valor correspondiente" required><br><br>
+
+    <label for="observacion">Observaciones....................:</label>
+    <textarea id="observacion" name="observacion" rows="2" cols="50"
+    ></textarea><br><br>
+
+    <input type="submit" value="Guardar"><br><br>
+
+    <a href="gestionar_pacientes.html" > Regresar al menú</a><br>
+    <!--<a href="index.html" target="_blank"> Página principal</a>--><br><br><br>
+    
+</body>
+</html>

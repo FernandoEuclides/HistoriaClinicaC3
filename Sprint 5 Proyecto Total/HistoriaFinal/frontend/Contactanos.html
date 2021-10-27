@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud Citas - PQRF</title>
+    <link href="./estilos/estilo_menu.css" rel="stylesheet">
+    <link href="./estilos/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/estilos_login.css">
+</head>
+<body>
+
+    <header>
+        <img src="./Imagenes/Encabezado.jpg" width="1340"/>
+    </header>
+    
+    <h1>La comunicación y su importancia:</h1>
+
+    <p>La comunicación es el proceso por medio del cual un emisor y un receptor 
+        establecen una conexión a través de un mensaje que les permite 
+        intercambiar o compartir ideas e información. En un sentido más profundo, 
+        comunicar es compartir un poco de nosotros mismos a los demás. </p>
+    <br> 
+    <h3>Puedes diligenciar el formulario o llamar al siguiente número para 
+        agendar tu cita: 604 123 4567</h3>
+
+    <p>Comunicarnos contigo es muy importante, recuerda que nos interesa tu 
+        opinión. Para brindarte un mejor servicio, diligencia el siguiente 
+        formulario:</p>
+    <br> 
+    <h3>Formulario para agendar citas, PQRF</h3>
+
+    <form>
+    <br>    
+
+    <label for="tipoSolicitud">Tipo de Solicitud............:</label>
+    <select id="tipoSolicitud" name="tipoSolicitud">
+        <option value="null"> Seleccionar </option>
+        <option value="cita"> Solicitud cita </option>
+        <option value="felicitacion"> Felicitación </option>
+        <option value="comentario"> Comentario </option>
+        <option value="PQR"> Queja o reclamo </option>
+    </select><br><br>
+
+    <label for="tipoDocumento">Tipo de Documento........:</label>
+    <select id="tipoDocumento" name="tipoDocumento">
+        <option value="null"> Seleccionar </option>
+        <option value="cc"> Cédula de Ciudadanía </option>
+        <option value="pasaporte"> Pasaporte </option>
+        <option value="ce"> Cédula de Extrangería </option>
+    </select><br><br>
+
+    <label for="numDocumento">Número de Documento..:</label>
+    <input type="text" id="numDocumento" name="numDocumento" 
+    placeholder="Escribe acá tu Número de Documento" required><br><br>
+
+    <label for="nombre">Nombre..........................:</label>
+    <input type="text" id="nombre" name="nombre" 
+    placeholder="Escribe acá tu nombre" required><br><br>
+
+    <label for="ciudad">Ciudad............................:</label>
+    <select id="ciudad" name="ciudad">
+        <option value="null"> Seleccionar </option>
+        <option value="barbosa"> Barbosa </option>
+        <option value="bello"> Bello </option>
+        <option value="caldas"> Caldas </option>
+        <option value="copacabana"> Copacabana </option>
+        <option value="envigado"> Envigado </option>
+        <option value="estrella"> Estrella </option>
+        <option value="girardota"> Girardota </option>
+        <option value="itagui"> Itaguí </option>
+        <option value="medellin"> Medellín </option>
+        <option value="sabaneta"> Sabaneta </option>
+    </select><br><br>
+
+    <label for="direccion">Direccion........................:</label>
+    <input type="text" id="direccion" name="direccion" 
+    placeholder="Escribe acá tu dirección" required><br><br>
+
+    <label for="telefono">Teléfono..........................:</label>
+    <input type="text" id="telefono" name="telefono" 
+    placeholder="Escribe acá tu teléfono" required><br><br>
+
+    <label for="celular">Teléfono celular..............:</label>
+    <input type="text" id="celular" name="celular" 
+    placeholder="Escribe acá tu celular" required><br><br>
+
+    <label for="email">E-mail.............................:</label>
+    <input type="email" id="email" name="email" 
+    placeholder="Escribe acá tu e-mail" required><br><br>
+
+    <label for="comentario">Comentario.....................:</label>
+    <input type="text" id="comentario" name="comentario" 
+    placeholder="Breve comentario de por que pide la cita" required><br><br>
+
+    <input type="submit" value="Enviar"><br><br>
+
+    </form>
+</body>
+</html>
