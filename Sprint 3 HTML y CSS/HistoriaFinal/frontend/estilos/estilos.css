@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+
+}
+p{
+    text-align: justify;
+}
+
+table, th, td {
+    border:1px solid black;
+    padding: 4px;
+}
+th{
+    color: aqua;
+    background-color: rgb(34, 34, 59);
+}
+tr:nth-child(odd){
+    background-color: rgb(145, 248, 243);
+}
