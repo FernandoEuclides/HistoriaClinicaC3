@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Relacion de Pacientes</title>
+    <link href="/CSS/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>PACIENTES ATENDIDOS EN EL CONSULTORIO</h1>
+    </header>
+    <nav>
+        <button class="button-nav"><a href="/index.html">Inicio</a></button>
+        <button class="button-nav "><a href="/crear_pacientes.html">Crear_Pacientes</a></button>
+        <!--<button class="button-nav button-foco"><a href="/ver_pacientes.html">Ver Pacientes</a></button>-->
+    </nav>
+
+    <div>
+        <input type="submit" id="cargar" name="cargar" value="Cargar Todos"><br><br>
+        <input type="text" id="buscar" name="buscar">
+        <input type="submit" id="buscar_NroDocumento" name="buscar_NroDocumento" value="buscar_NroDocumento"><br><br>
+        <input type="text" id="buscarid" name="buscarid">
+        <input type="submit" id="buscar_id" name="buscar_id" value="Buscar por Id"><br><br>
+    </div>
+
+    <section>
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>NroDocumento</th>
+                <th>Nombre</th>
+                <th>FNacimiento</th>
+                <th>genero</th>
+                <th>celular</th>
+                <th>email</th>
+                <th>fecha_consulta</th>
+                <th>aseguradora</th>
+                <th>Eliminar</th>
+                <!--<th>Editar</th>-->
+            </thead>
+            <tbody id="cuerpo">
+
+            </tbody>
+        </table>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/script/jquery-3.6.0.min.js"></script>
+    <script src="/script/javascript.js"></script>
+</body>
+
+</html>

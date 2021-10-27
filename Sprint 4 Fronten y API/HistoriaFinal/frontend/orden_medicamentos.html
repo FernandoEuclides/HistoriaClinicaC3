@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órdenes Medicamentos</title>
+    <link href="./estilos/estilo_menu.css" rel="stylesheet">
+    <link href="./estilos/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/estilos_login.css">
+</head>
+<body>
+
+    <header>
+        <img src="./Imagenes/Encabezado.jpg" width="1340"/>
+    </header>
+    
+    <h1>Órden de Medicamentos:</h1>
+
+    <p>A continuación podrá ordenar los medicamentos del paciente para imprimir. </p>
+    <br> 
+
+    <label for="fecha_diagnostico">Fecha Órden...................:</label>
+    <input type="date" id="fecha_diagnostico" name="fecha_diagnostico" 
+    placeholder="dd/mm/aaaa" required><br><br>
+
+    <label for="tipoDocumento">Tipo de Documento id....:</label>
+    <select id="tipoDocumento" name="tipoDocumento">
+        <option value="null"> Seleccionar </option>
+        <option value="cc"> Cédula de Ciudadanía </option>
+        <option value="pasaporte"> Pasaporte </option>
+        <option value="ce"> Cédula de Extrangería </option>
+    </select><br><br>
+
+    <label for="numDocumento">Número de Documento..:</label>
+    <input type="text" id="numDocumento" name="numDocumento" 
+    placeholder="Escribe un número Documento" required><br><br>
+
+    <label for="nombre">Nombre del paciente......:</label>
+    <input type="text" id="nombre" name="nombre" 
+    placeholder="Escribe un nombre" required><br><br>
+
+    <table>
+        <tr>
+            <th> Medicamento </th>
+            <th> Presentación </th>
+            <th> Total </th>
+            <th> Dosis </th>
+            <th> Via Administración </th>
+            <th> Frecuencia </th>
+        </tr>
+        <tr>
+            <td> <select id="medicamentos" name="medicamentos">
+                <option value="null"> Seleccionar </option>
+                <option value="acetami"> Acetaminofén </option>
+                <option value="dipiron"> Dipirona  </option>
+                <option value="diclofe"> Diclofenaco </option>
+                <option value="suero"> Sales de Hidratación </option></td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            
+        </tr>
+        <tr>
+            <td> <select id="medicamentos" name="medicamentos">
+                <option value="null"> Seleccionar </option>
+                <option value="acetami"> Acetaminofén </option>
+                <option value="dipiron"> Dipirona  </option>
+                <option value="diclofe"> Diclofenaco </option>
+                <option value="suero"> Sales de Hidratación </option></td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+            <td> <input type="text" > </td>
+        </tr>
+        
+
+    </table><br>
+        
+    <table>
+        <tr>
+            <th> Registro Médico </th>
+            <th> Médico </th>
+        </tr>
+        <tr>
+            <td> <select id="regMedico" name="regMedico">
+                <option value="111111111"> 111111111 </option>
+                <option value="">  </option> </td>
+        <td> <select id="nomMedico" name="nomMedico">
+            <option value="WALFERJOSALVIYAS"> WALFERJO SALVIYAS </option>
+            <option value="">  </option>  </td>
+        </tr>
+        
+    </table><br>
+    
+    <input type="submit" value="Guardar"><br><br>
+
+    <a href="gestionar_pacientes.html" > Regresar al menú</a><br>
+    <!--<a href="index.html" target="_blank"> Página principal</a>--><br><br><br>
+    
+</body>
+</html>
